@@ -1,4 +1,4 @@
-# Hi, I'm Sameer Dhir. 👋
+# Hi, I'm Sameer Dhir. <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjRxZGZ5aGZ4aHZ5aGZ4aHZ5aGZ4aHZ5aGZ4aHZ5aGZ4aHZ5/LpDl1C2jX97M9A3b8e/giphy.gif" width="45" style="margin-bottom:-10px;" />
 
 ### 👨‍💻 Software Engineer | Full-Stack Systems & Machine Learning
 
