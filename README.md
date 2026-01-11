@@ -1,5 +1,4 @@
-# Hi, I'm Sameer Dhir. <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjRxZGZ5aGZ4aHZ5aGZ4aHZ5aGZ4aHZ5aGZ4aHZ5aGZ4aHZ5/LpDl1C2jX97M9A3b8e/giphy.gif" width="45" style="margin-bottom:-10px;" />
-
+# Hi, I'm Sameer Dhir. <img src="https://media.giphy.com/media/JNKyrEbQc05u9QJt6E/giphy.gif" width="40" style="margin-bottom:-5px;" />
 ### 👨‍💻 Software Engineer | Full-Stack Systems & Machine Learning
 
 I operate at the convergence of **Web Engineering** and **Artificial Intelligence**. My focus is on building accessible, high-performance applications that leverage Local LLMs and Generative AI.
