@@ -1,16 +1,46 @@
-## Hi there 👋
+# Hi, I'm Sameer Dhir. 👋
 
-<!--
-**sameezy667/sameezy667** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 👨‍💻 Software Engineer | Full-Stack Systems & Machine Learning
 
-Here are some ideas to get you started:
+I operate at the convergence of **Web Engineering** and **Artificial Intelligence**. My focus is on building accessible, high-performance applications that leverage Local LLMs and Generative AI.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠️ Tech Stack & Arsenal
+
+**Languages**
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+**Frameworks & Libraries**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=white)
+
+**AI & Tools**
+![Llama 3](https://img.shields.io/badge/Llama_3-040404?style=for-the-badge&logo=meta&logoColor=blue) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+### 🚀 Featured Work
+
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **[Flagr 🚩](https://github.com/sameezy667/Flagr)** | **AI Legal Assistant SaaS.** Analyzes contracts to detect risks and summarize clauses using Llama 3. | `React` `TypeScript` `GenAI` |
+| **[DjedOPS](https://github.com/sameezy667/DjedOPS-)** | **System Dashboard.** A high-performance landing page and dashboard interface for system operations. | `TypeScript` `Modern UI` |
+
+---
+
+### 📊 GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=sameezy667&show_icons=true&theme=tokyonight&hide_border=true" alt="Sameer's GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sameezy667&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="150" />
+</p>
+
+---
+
+### ⚡ Personal Byte
+
+* **Current Focus:** Integrating Local LLMs on mobile devices for privacy-first AI.
+* **Philosophy:** Oh well. Whatever happens, happens.
+* **On Repeat:** [![Spotify](https://img.shields.io/badge/Spotify-My_Coding_Anthem-1DB954?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/2g3iR7nSecB0ZFPNTDhcTS?si=ee1f6a1dcab54311)
+
+[<img src="https://img.shields.io/badge/Portfolio-Visit%20Site-black?style=for-the-badge&logo=vercel" />](https://sameerdhir.vercel.app/)  [<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />](https://www.linkedin.com/in/sameer-dhir-b87061277/)
