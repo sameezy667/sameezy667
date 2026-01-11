@@ -28,19 +28,10 @@ I operate at the convergence of **Web Engineering** and **Artificial Intelligenc
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=sameezy667&show_icons=true&theme=tokyonight&hide_border=true" alt="Sameer's GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sameezy667&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="150" />
-</p>
-
----
-
 ### ⚡ Personal Byte
 
 * **Current Focus:** Integrating Local LLMs on mobile devices for privacy-first AI.
 * **Philosophy:** Oh well. Whatever happens, happens.
-* **On Repeat:** [![Spotify](https://img.shields.io/badge/Spotify-My_Coding_Anthem-1DB954?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/2g3iR7nSecB0ZFPNTDhcTS?si=ee1f6a1dcab54311)
+* **On Repeat:** [![Spotify](https://img.shields.io/badge/Spotify-Blud_Jam-1DB954?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/2g3iR7nSecB0ZFPNTDhcTS?si=ee1f6a1dcab54311)
 
-[<img src="https://img.shields.io/badge/Portfolio-Visit%20Site-black?style=for-the-badge&logo=vercel" />](https://sameerdhir.vercel.app/)  [<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />](https://www.linkedin.com/in/sameer-dhir-b87061277/)
+[<img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=vercel" />](https://sameerdhir.vercel.app/) [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" />](https://www.linkedin.com/in/sameer-dhir-b87061277/)
