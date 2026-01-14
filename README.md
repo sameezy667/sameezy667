@@ -30,7 +30,6 @@ I operate at the convergence of **Web Engineering** and **Artificial Intelligenc
 ### ⚡ Personal Byte
 
 * **Current Focus:** Integrating Local LLMs on mobile devices for privacy-first AI.
-* **Philosophy:** I'm going to find out if I'm really alive.
 * **On Repeat:** [![Spotify](https://img.shields.io/badge/Spotify-Blud_Jam-1DB954?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/2g3iR7nSecB0ZFPNTDhcTS?si=ee1f6a1dcab54311)
 
 [<img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=vercel" />](https://sameerdhir.vercel.app/) [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" />](https://www.linkedin.com/in/sameer-dhir-b87061277/)
