@@ -10,14 +10,9 @@
   <!-- BACKGROUND -->
   <!-- ====================================================== -->
 
-  <rect
-    width="1200"
-    height="700"
-    rx="12"
-    fill="#0d1117"
-  />
+  <rect width="1200" height="700" rx="12" fill="#0d1117"/>
 
-  <!-- Terminal frame -->
+  <!-- Outer terminal -->
   <rect
     x="12"
     y="12"
@@ -68,54 +63,29 @@
   >
 
     <text x="40" y="90"><![CDATA[((/(/(((((((((((((((#(#(((((#(((((##((((#(((((((((((((((((#]]></text>
-
     <text x="40" y="104"><![CDATA[/#((((((((((#/(#((((((#(##(((#((((((/((((((#(((((/(((((((//]]></text>
-
     <text x="40" y="118"><![CDATA[(//(((((###((#(#(##((((*.,*/**,,,*/(#((#(#(((#((((((((((((]]></text>
-
     <text x="40" y="132"><![CDATA[((((((((((((#(#(#(((...,*(///***/(/***,/(###((###(((((#((#((]]></text>
-
     <text x="40" y="146"><![CDATA[(((((#######(##(........*(/,.,,.,.,.,,**,((#######(##(#((((]]></text>
-
     <text x="40" y="160"><![CDATA[(#(###(######(/..,//(**,,,,,,*,,........*.,###(###(#(#(((((]]></text>
-
     <text x="40" y="174"><![CDATA[((/##(#######(.,/((##%//(((####(//,.,*,....(#####((*,,,,**,]]></text>
-
     <text x="40" y="188"><![CDATA[(#,*,,,*,(%##,../*(#####/########(##(#*,,../,...,.,*,*####(]]></text>
-
     <text x="40" y="202"><![CDATA[#(#(,(,,**,,*,.,*,,,.,,,*,.,,.,,.**,,,//...,..,***//#######]]></text>
-
     <text x="40" y="216"><![CDATA[######**#,,,.,.,.,,(((/,.,,*,.,,*//#####.,*((##((/#########]]></text>
-
     <text x="40" y="230"><![CDATA[########**(/,,,,*,.*,,////(#%%/**/(((#%#,(//*/####%########]]></text>
-
     <text x="40" y="244"><![CDATA[#%#########(*,,,*(/*.,*#/*,,,/#/*,/(//(/*%#%%%%%%##%##%%%#]]></text>
-
     <text x="40" y="258"><![CDATA[%%%#%%%%%%%##%##**,*,*,/(//(#(##(*...,**/%#%###%##%%####%%]]></text>
-
     <text x="40" y="272"><![CDATA[%%%%%%%%#%%%#%##(,,,,,,,,,,.,.,.........(#%####%%##%##%####]]></text>
-
     <text x="40" y="286"><![CDATA[%%%%%%%#%%######%#*.....,,,...........*(%%((#####%##%######]]></text>
-
     <text x="40" y="300"><![CDATA[%##%%##%#%#*%%%%%%#*.................(#%#%%%%#//,/######%%]]></text>
-
     <text x="40" y="314"><![CDATA[%%##%#/*(%(,.,..,./##.............,(#,....,,,,,*(,,,,/#####]]></text>
-
     <text x="40" y="328"><![CDATA[%##**,**,,.,,.,,.,,...../#,..,%,...........,,,,,,,..,..*#%#]]></text>
-
     <text x="40" y="342"><![CDATA[#(/***,,,....,.,...........................,***,,.,..,.,*##]]></text>
-
     <text x="40" y="356"><![CDATA[###,,,,,,,...,.,..,..................,.......,...,,,,,,*((#]]></text>
-
-    <text x="40" y="370"><![CDATA[*/*#/,*,,/#(/##((((#(((((((*,**//(#((((##/*..,,*,,,,,//,,/]]></text>
-
+    <text x="40" y="370"><![CDATA[*/ *#/,*,,/#(/##((((#(((((((*,**//(#((((##/*..,,*,,,,,//,,/]]></text>
     <text x="40" y="384"><![CDATA[***(.(#((,,,,*/*(,#(,#,*,,.,...,.,.,,,,...,,,*,*/*(,(,*/.,*]]></text>
-
     <text x="40" y="398"><![CDATA[/(,/.,****/*,,,*,,,,,.,,..,,/,....,.,,,,,,.,,,/(..*,*/,,,,*]]></text>
-
     <text x="40" y="412"><![CDATA[((,,.,((,,,*/#//((..#//*(.,..,,(((/,,,***(,(*,,,,**.,,,//(.]]></text>
-
-    <text x="40" y="426"><![CDATA[                                               ]]></text>
 
   </g>
 
@@ -126,145 +96,197 @@
 
   <g font-family="monospace">
 
-    <!-- HEADER -->
+    <!-- SYSTEM -->
     <text
-      x="655"
+      x="650"
       y="90"
       fill="#f0f6fc"
       font-size="16"
       font-weight="bold"
     >sameer@systems</text>
 
-
-    <!-- ================================================== -->
-    <!-- SYSTEM -->
-    <!-- ================================================== -->
-
-    <text x="655" y="118" fill="#58a6ff" font-size="14">OS:</text>
-    <text x="815" y="118" fill="#c9d1d9" font-size="14">
+    <text x="650" y="118" fill="#58a6ff" font-size="14">OS:</text>
+    <text x="810" y="118" fill="#c9d1d9" font-size="14">
       Linux Mint, Windows 11 (x86_64)
     </text>
 
-    <text x="655" y="141" fill="#58a6ff" font-size="14">Host:</text>
-    <text x="815" y="141" fill="#c9d1d9" font-size="14">
+    <text x="650" y="141" fill="#58a6ff" font-size="14">Host:</text>
+    <text x="810" y="141" fill="#c9d1d9" font-size="14">
       ASUS Vivobook Architecture
     </text>
 
-    <text x="655" y="164" fill="#58a6ff" font-size="14">Kernel:</text>
-    <text x="815" y="164" fill="#c9d1d9" font-size="14">
+    <text x="650" y="164" fill="#58a6ff" font-size="14">Kernel:</text>
+    <text x="810" y="164" fill="#c9d1d9" font-size="14">
       ML &amp; Full-Stack Systems
     </text>
 
-    <text x="655" y="187" fill="#58a6ff" font-size="14">Uptime:</text>
-    <text x="815" y="187" fill="#c9d1d9" font-size="14">
+    <text x="650" y="187" fill="#58a6ff" font-size="14">Uptime:</text>
+    <text x="810" y="187" fill="#c9d1d9" font-size="14">
       Building 24/7
     </text>
 
-    <text x="655" y="210" fill="#58a6ff" font-size="14">Shell:</text>
-    <text x="815" y="210" fill="#c9d1d9" font-size="14">
+    <text x="650" y="210" fill="#58a6ff" font-size="14">Shell:</text>
+    <text x="810" y="210" fill="#c9d1d9" font-size="14">
       Local LLMs &amp; GenAI Runtimes
     </text>
 
-    <text x="655" y="233" fill="#58a6ff" font-size="14">Focus:</text>
-    <text x="815" y="233" fill="#c9d1d9" font-size="14">
+    <text x="650" y="233" fill="#58a6ff" font-size="14">Focus:</text>
+    <text x="810" y="233" fill="#c9d1d9" font-size="14">
       Privacy-first On-Device AI
     </text>
 
-    <text x="655" y="256" fill="#58a6ff" font-size="14">IDE:</text>
-    <text x="815" y="256" fill="#c9d1d9" font-size="14">
+    <text x="650" y="256" fill="#58a6ff" font-size="14">IDE:</text>
+    <text x="810" y="256" fill="#c9d1d9" font-size="14">
       VS Code, Cursor
     </text>
 
 
-    <!-- ================================================== -->
     <!-- STACK -->
-    <!-- ================================================== -->
-
     <text
-      x="655"
+      x="650"
       y="298"
       fill="#3fb950"
       font-size="15"
       font-weight="bold"
     >Languages.Code</text>
 
-    <text x="655" y="322" fill="#3fb950" font-size="14">Code:</text>
-    <text x="815" y="322" fill="#c9d1d9" font-size="14">
+    <text x="650" y="322" fill="#3fb950" font-size="14">Code:</text>
+    <text x="810" y="322" fill="#c9d1d9" font-size="14">
       TypeScript, Python, C++, SQL, Go
     </text>
 
-    <text x="655" y="345" fill="#3fb950" font-size="14">Web:</text>
-    <text x="815" y="345" fill="#c9d1d9" font-size="14">
+    <text x="650" y="345" fill="#3fb950" font-size="14">Web:</text>
+    <text x="810" y="345" fill="#c9d1d9" font-size="14">
       React, Next.js, Node.js, TailwindCSS
     </text>
 
-    <text x="655" y="368" fill="#3fb950" font-size="14">AI:</text>
-    <text x="815" y="368" fill="#c9d1d9" font-size="14">
+    <text x="650" y="368" fill="#3fb950" font-size="14">AI:</text>
+    <text x="810" y="368" fill="#c9d1d9" font-size="14">
       PyTorch, Llama 3, Local LLM Runtimes
     </text>
 
 
-    <!-- ================================================== -->
     <!-- PROJECTS -->
-    <!-- ================================================== -->
-
     <text
-      x="655"
+      x="650"
       y="410"
       fill="#f0883e"
       font-size="15"
       font-weight="bold"
     >Projects.Featured</text>
 
-    <text x="655" y="434" fill="#79c0ff" font-size="14">
-      Flagr:
-    </text>
-    <text x="815" y="434" fill="#c9d1d9" font-size="14">
+    <text x="650" y="434" fill="#79c0ff" font-size="14">Flagr:</text>
+    <text x="810" y="434" fill="#c9d1d9" font-size="14">
       AI Legal Assistant SaaS
     </text>
 
-    <text x="655" y="457" fill="#79c0ff" font-size="14">
-      DjedOPS:
-    </text>
-    <text x="815" y="457" fill="#c9d1d9" font-size="14">
+    <text x="650" y="457" fill="#79c0ff" font-size="14">DjedOPS:</text>
+    <text x="810" y="457" fill="#c9d1d9" font-size="14">
       Realtime System Operations
     </text>
 
-    <text x="655" y="480" fill="#79c0ff" font-size="14">
+    <text x="650" y="480" fill="#79c0ff" font-size="14">
       Whiteboard→SQL:
     </text>
-    <text x="815" y="480" fill="#c9d1d9" font-size="14">
+    <text x="810" y="480" fill="#c9d1d9" font-size="14">
       AI Visual Schema Extraction
     </text>
 
 
     <!-- ================================================== -->
-    <!-- PHILOSOPHY -->
+    <!-- SOCIAL / CONTACT BUTTONS -->
     <!-- ================================================== -->
 
-    <text
-      x="655"
-      y="522"
-      fill="#bc8cff"
-      font-size="15"
-      font-weight="bold"
-    >Philosophy.Byte</text>
+    <a href="https://www.linkedin.com/in/sameer-dhir-b87061277" target="_blank">
+      <rect
+        x="650"
+        y="520"
+        width="115"
+        height="34"
+        rx="6"
+        fill="#161b22"
+        stroke="#30363d"
+      />
 
-    <text x="655" y="546" fill="#8b949e" font-size="14">
-      Quote:
-    </text>
+      <text
+        x="707"
+        y="542"
+        text-anchor="middle"
+        fill="#58a6ff"
+        font-family="monospace"
+        font-size="13"
+        font-weight="bold"
+      >LinkedIn</text>
+    </a>
 
-    <text x="815" y="546" fill="#c9d1d9" font-size="14">
-      "Find out if I'm really alive."
-    </text>
 
-    <text x="655" y="569" fill="#8b949e" font-size="14">
-      Music:
-    </text>
+    <a href="https://x.com/_Sameerism_" target="_blank">
+      <rect
+        x="775"
+        y="520"
+        width="85"
+        height="34"
+        rx="6"
+        fill="#161b22"
+        stroke="#30363d"
+      />
 
-    <text x="815" y="569" fill="#c9d1d9" font-size="14">
-      Electronic, Progressive House
-    </text>
+      <text
+        x="817"
+        y="542"
+        text-anchor="middle"
+        fill="#f0f6fc"
+        font-family="monospace"
+        font-size="13"
+        font-weight="bold"
+      >X / Twitter</text>
+    </a>
+
+
+    <a href="https://sameerdhir.vercel.app/" target="_blank">
+      <rect
+        x="870"
+        y="520"
+        width="105"
+        height="34"
+        rx="6"
+        fill="#161b22"
+        stroke="#30363d"
+      />
+
+      <text
+        x="922"
+        y="542"
+        text-anchor="middle"
+        fill="#3fb950"
+        font-family="monospace"
+        font-size="13"
+        font-weight="bold"
+      >Portfolio</text>
+    </a>
+
+
+    <a href="https://open.spotify.com/" target="_blank">
+      <rect
+        x="985"
+        y="520"
+        width="105"
+        height="34"
+        rx="6"
+        fill="#161b22"
+        stroke="#30363d"
+      />
+
+      <text
+        x="1037"
+        y="542"
+        text-anchor="middle"
+        fill="#1ed760"
+        font-family="monospace"
+        font-size="13"
+        font-weight="bold"
+      >Spotify</text>
+    </a>
 
 
     <!-- ================================================== -->
@@ -272,27 +294,26 @@
     <!-- ================================================== -->
 
     <text
-      x="655"
-      y="611"
+      x="650"
+      y="596"
       fill="#f778ba"
       font-size="15"
       font-weight="bold"
     >Contact</text>
 
-    <text x="655" y="635" fill="#8b949e" font-size="14">
-      Web:
-    </text>
-
-    <text x="815" y="635" fill="#58a6ff" font-size="14">
+    <text x="650" y="620" fill="#8b949e" font-size="14">Web:</text>
+    <text x="810" y="620" fill="#58a6ff" font-size="14">
       sameerdhir.vercel.app
     </text>
 
-    <text x="655" y="658" fill="#8b949e" font-size="14">
-      GitHub:
+    <text x="650" y="643" fill="#8b949e" font-size="14">GitHub:</text>
+    <text x="810" y="643" fill="#58a6ff" font-size="14">
+      @sameezy667
     </text>
 
-    <text x="815" y="658" fill="#58a6ff" font-size="14">
-      @sameezy667
+    <text x="650" y="666" fill="#8b949e" font-size="14">Status:</text>
+    <text x="810" y="666" fill="#3fb950" font-size="14">
+      building systems
     </text>
 
   </g>
