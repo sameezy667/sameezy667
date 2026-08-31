@@ -10,7 +10,7 @@
 
 <br><br>
 
-<!-- SONIC GIF -->
+<!-- SONIC -->
 
 <img
   src="./sonic.gif"
@@ -28,46 +28,20 @@
   width="95%"
 />
 
-<br><br>
+</div>
+
+<br>
 
 <!-- SOCIAL LINKS -->
 
 <p align="center">
 
-<a href="https://www.linkedin.com/in/sameer-dhir-b87061277">
-<img
-  src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-  alt="LinkedIn"
-/>
-</a>
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sameer-dhir-b87061277)
 &nbsp;
-
-<a href="https://x.com/_Sameerism_">
-<img
-  src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"
-  alt="X"
-/>
-</a>
-
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/_Sameerism_)
 &nbsp;
-
-<a href="https://sameerdhir.vercel.app/">
-<img
-  src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"
-  alt="Portfolio"
-/>
-</a>
-
+[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://sameerdhir.vercel.app/)
 &nbsp;
-
-<a href="https://open.spotify.com/">
-<img
-  src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white"
-  alt="Spotify"
-/>
-</a>
+[![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/)
 
 </p>
-
-</div>
