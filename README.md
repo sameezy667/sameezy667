@@ -8,7 +8,15 @@
 
 <br><br>
 
-<!-- CONTRIBUTION SNAKE -->
+<a href="https://tenor.com/en-GB/view/waiting-sonic-sleeping-gif-4353544136288631339">
+  <img
+    src="https://tenor.com/iyNM1ES9H2G.gif"
+    alt="Waiting Sonic"
+    width="420"
+  />
+</a>
+
+<br><br>
 
 <img
   src="https://raw.githubusercontent.com/sameezy667/sameezy667/output/snake.svg"
