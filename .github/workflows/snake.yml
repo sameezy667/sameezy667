@@ -26,13 +26,12 @@ jobs:
         with:
           github_user_name: sameezy667
           outputs: |
-            dist/snake.svg?color_snake=%2339ff88&color_dots=%230d1117,%230d1117,%230b2618,%230e6b32,%2339ff88
+            dist/snake.svg?color_snake=%2339ff88&color_dots=%23161b22,%23161b22,%230b2618,%230e6b32,%2339ff88
 
       - name: Publish snake
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
