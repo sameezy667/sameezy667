@@ -1,4 +1,4 @@
-name: generate snake
+name: Generate Contribution Snake
 
 on:
   schedule:
@@ -18,20 +18,17 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: Generate contribution snake
+      - name: Generate dark green snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-
+          github_user_name: sameezy667
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-            dist/snake-light.svg?palette=github-light
+            dist/snake.svg?color_snake=%2339ff88&color_dots=%230d1117,%230d1117,%230b2618,%230e6b32,%2339ff88
 
-      - name: Publish generated files
+      - name: Publish snake
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
