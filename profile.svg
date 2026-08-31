@@ -5,10 +5,18 @@
   xmlns="http://www.w3.org/2000/svg"
 >
 
-  <!-- Background -->
-  <rect width="1200" height="720" rx="14" fill="#0d1117"/>
+  <!-- ========================================================= -->
+  <!-- BACKGROUND -->
+  <!-- ========================================================= -->
 
-  <!-- Terminal border -->
+  <rect
+    width="1200"
+    height="720"
+    rx="14"
+    fill="#0d1117"
+  />
+
+  <!-- Outer terminal -->
   <rect
     x="18"
     y="18"
@@ -20,7 +28,10 @@
     stroke-width="2"
   />
 
-  <!-- Terminal top bar -->
+  <!-- ========================================================= -->
+  <!-- TERMINAL BAR -->
+  <!-- ========================================================= -->
+
   <rect
     x="18"
     y="18"
@@ -30,275 +41,327 @@
     fill="#161b22"
   />
 
+  <!-- macOS-style buttons -->
   <circle cx="42" cy="39" r="6" fill="#ff5f56"/>
   <circle cx="62" cy="39" r="6" fill="#ffbd2e"/>
   <circle cx="82" cy="39" r="6" fill="#27c93f"/>
 
+  <!-- Terminal title -->
   <text
     x="600"
-    y="45"
+    y="44"
     text-anchor="middle"
     fill="#8b949e"
     font-family="monospace"
-    font-size="15"
+    font-size="14"
   >
     sameer@systems: ~
   </text>
 
-  <!-- ASCII portrait -->
+
+  <!-- ========================================================= -->
+  <!-- ASCII ART -->
+  <!-- ========================================================= -->
+
   <g
     font-family="monospace"
-    font-size="14"
+    font-size="12"
     fill="#8b949e"
     xml:space="preserve"
   >
 
-    <text x="42" y="100">
+    <text x="45" y="96">
       ((/(/(((((((((((((((#(#(((((#(((((##((((#(((((((((((((((((#
     </text>
 
-    <text x="42" y="116">
+    <text x="45" y="111">
       /#((((((((((#/(#((((((#(##(((#((((((/((((((#(((((/(((((((//
     </text>
 
-    <text x="42" y="132">
+    <text x="45" y="126">
       (//(((((###((#(#(##((((*.,*/**,,,*/(#((#(#(((#(((((((((((
     </text>
 
-    <text x="42" y="148">
+    <text x="45" y="141">
       (((((((((((#(#(#(((...,*(///***/(/***,/(###((###(((((#((#
     </text>
 
-    <text x="42" y="164">
-      (((((#######(##(........*(/,.,,.,.,.,,**,((#######(##(#((
+    <text x="45" y="156">
+      (((((#######(##(........*(/,.,,.,.,,**,((#######(##(#(((
     </text>
 
-    <text x="42" y="180">
+    <text x="45" y="171">
       (#(###(######(/..,//(**,,,,,,*,,........*.,###(###(#(#(((
     </text>
 
-    <text x="42" y="196">
+    <text x="45" y="186">
       ((/##(#######(.,/((##%//(((####(//,.,*,....(#####((*,,,,*
     </text>
 
-    <text x="42" y="212">
+    <text x="45" y="201">
       (#,*,,,*,(%##,../*(#####/########(##(#*,,../,...,.,*,*####
     </text>
 
-    <text x="42" y="228">
+    <text x="45" y="216">
       #(#(,(,,**,,*,.,*,,,.,,,*,.,,.,,.**,,,//...,..,***//#####
     </text>
 
-    <text x="42" y="244">
+    <text x="45" y="231">
       ######**#,,,.,.,.,,(((/,.,,*,.,,*//#####.,*((##((/#######
     </text>
 
-    <text x="42" y="260">
+    <text x="45" y="246">
       ########**(/,,,,*,.*,,////(#%%/**/(((#%#,(//*/####%######
     </text>
 
-    <text x="42" y="276">
+    <text x="45" y="261">
       #%#########(*,,,*(/*.,*#/*,,,/#/*,/(//(/*%#%%%%%%##%##%%
     </text>
 
-    <text x="42" y="292">
+    <text x="45" y="276">
       %%%#%%%%%%%##%##**,*,*,/(//(#(##(*...,**/%#%###%##%%####
     </text>
 
-    <text x="42" y="308">
+    <text x="45" y="291">
       %%%%%%%%#%%%#%##(,,,,,,,,,,.,.,.........(#%####%%##%##%#
     </text>
 
-    <text x="42" y="324">
+    <text x="45" y="306">
       %%%%%%%#%%######%#*.....,,,...........*(%%((#####%##%###
     </text>
 
-    <text x="42" y="340">
+    <text x="45" y="321">
       %##%%##%#%#*%%%%%%#*.................(#%#%%%%#//,/#####%
     </text>
 
-    <text x="42" y="356">
+    <text x="45" y="336">
       %%##%#/*(%(,.,..,./##.............,(#,....,,,,,*(,,,,/###
     </text>
 
-    <text x="42" y="372">
+    <text x="45" y="351">
       %##**,**,,.,,.,,.,,...../#,..,%,...........,,,,,,,..,..*#
     </text>
 
-    <text x="42" y="388">
+    <text x="45" y="366">
       #(/***,,,....,.,...........................,***,,.,..,.,*#
     </text>
 
-    <text x="42" y="404">
+    <text x="45" y="381">
       ###,,,,,,,...,.,..,..................,.......,...,,,,,,*(
     </text>
 
-    <text x="42" y="420">
+    <text x="45" y="396">
       */*#/,*,,/#(/##((((#(((((((*,**//(#((((##/*..,,*,,,,,//,/
     </text>
 
-    <text x="42" y="436">
+    <text x="45" y="411">
       ***(.(#((,,,,*/*(,#(,#,*,,.,...,.,.,,,,...,,,*,*/*(,(,*/.
     </text>
 
-    <text x="42" y="452">
+    <text x="45" y="426">
       /(,/.,****/*,,,*,,,,,.,,..,,/,....,.,,,,,,.,,,/(..*,*/,,,,
     </text>
 
-    <text x="42" y="468">
+    <text x="45" y="441">
       ((,,.,((,,,*/#//((..#//*(.,..,,(((/,,,***(,(*,,,,**.,,,/.
     </text>
 
   </g>
 
-  <!-- Right side terminal -->
-  <g font-family="monospace" font-size="16">
 
-    <!-- Header -->
-    <text x="650" y="100" fill="#f0f6fc">
+  <!-- ========================================================= -->
+  <!-- RIGHT INFORMATION COLUMN -->
+  <!-- ========================================================= -->
+
+  <g
+    font-family="monospace"
+    font-size="14"
+  >
+
+    <!-- ------------------------------------------------------- -->
+    <!-- SYSTEM -->
+    <!-- ------------------------------------------------------- -->
+
+    <text
+      x="650"
+      y="96"
+      fill="#f0f6fc"
+      font-size="15"
+      font-weight="bold"
+    >
       sameer@systems
     </text>
 
-    <text x="650" y="126" fill="#58a6ff">
-      OS:
-    </text>
-    <text x="850" y="126" fill="#c9d1d9">
+    <!-- OS -->
+    <text x="650" y="124" fill="#58a6ff">OS:</text>
+    <text x="830" y="124" fill="#c9d1d9">
       Linux Mint, Windows 11 (x86_64)
     </text>
 
-    <text x="650" y="150" fill="#58a6ff">
-      Host:
-    </text>
-    <text x="850" y="150" fill="#c9d1d9">
+    <!-- HOST -->
+    <text x="650" y="148" fill="#58a6ff">Host:</text>
+    <text x="830" y="148" fill="#c9d1d9">
       ASUS Vivobook Architecture
     </text>
 
-    <text x="650" y="174" fill="#58a6ff">
-      Kernel:
-    </text>
-    <text x="850" y="174" fill="#c9d1d9">
+    <!-- KERNEL -->
+    <text x="650" y="172" fill="#58a6ff">Kernel:</text>
+    <text x="830" y="172" fill="#c9d1d9">
       ML &amp; Full-Stack Systems
     </text>
 
-    <text x="650" y="198" fill="#58a6ff">
-      Uptime:
-    </text>
-    <text x="850" y="198" fill="#c9d1d9">
+    <!-- UPTIME -->
+    <text x="650" y="196" fill="#58a6ff">Uptime:</text>
+    <text x="830" y="196" fill="#c9d1d9">
       Building 24/7
     </text>
 
-    <text x="650" y="222" fill="#58a6ff">
-      Shell:
-    </text>
-    <text x="850" y="222" fill="#c9d1d9">
+    <!-- SHELL -->
+    <text x="650" y="220" fill="#58a6ff">Shell:</text>
+    <text x="830" y="220" fill="#c9d1d9">
       Local LLMs &amp; GenAI Runtimes
     </text>
 
-    <text x="650" y="246" fill="#58a6ff">
-      Focus:
-    </text>
-    <text x="850" y="246" fill="#c9d1d9">
+    <!-- FOCUS -->
+    <text x="650" y="244" fill="#58a6ff">Focus:</text>
+    <text x="830" y="244" fill="#c9d1d9">
       Privacy-first On-Device AI
     </text>
 
-    <text x="650" y="270" fill="#58a6ff">
-      IDE:
-    </text>
-    <text x="850" y="270" fill="#c9d1d9">
+    <!-- IDE -->
+    <text x="650" y="268" fill="#58a6ff">IDE:</text>
+    <text x="830" y="268" fill="#c9d1d9">
       VS Code, Cursor
     </text>
 
 
-    <!-- Languages -->
-    <text x="650" y="316" fill="#3fb950">
+    <!-- ------------------------------------------------------- -->
+    <!-- LANGUAGES -->
+    <!-- ------------------------------------------------------- -->
+
+    <text
+      x="650"
+      y="310"
+      fill="#3fb950"
+      font-weight="bold"
+    >
       Languages.Code
     </text>
-    <text x="850" y="316" fill="#c9d1d9">
+
+    <text x="650" y="334" fill="#3fb950">Code:</text>
+    <text x="830" y="334" fill="#c9d1d9">
       TypeScript, Python, C++, SQL, Go
     </text>
 
-    <text x="650" y="340" fill="#3fb950">
-      Frameworks.Web
-    </text>
-    <text x="850" y="340" fill="#c9d1d9">
+    <text x="650" y="358" fill="#3fb950">Web:</text>
+    <text x="830" y="358" fill="#c9d1d9">
       React, Next.js, Node.js, TailwindCSS
     </text>
 
-    <text x="650" y="364" fill="#3fb950">
-      AI.Arsenal
-    </text>
-    <text x="850" y="364" fill="#c9d1d9">
+    <text x="650" y="382" fill="#3fb950">AI:</text>
+    <text x="830" y="382" fill="#c9d1d9">
       PyTorch, Llama 3, Local LLM Runtimes
     </text>
 
 
-    <!-- Projects -->
-    <text x="650" y="412" fill="#f0883e">
+    <!-- ------------------------------------------------------- -->
+    <!-- PROJECTS -->
+    <!-- ------------------------------------------------------- -->
+
+    <text
+      x="650"
+      y="424"
+      fill="#f0883e"
+      font-weight="bold"
+    >
       Projects.Featured
     </text>
 
-    <text x="650" y="438" fill="#79c0ff">
+    <text x="650" y="448" fill="#79c0ff">
       Flagr:
     </text>
-    <text x="850" y="438" fill="#c9d1d9">
+
+    <text x="830" y="448" fill="#c9d1d9">
       AI Legal Assistant SaaS
     </text>
 
-    <text x="650" y="462" fill="#79c0ff">
+
+    <text x="650" y="472" fill="#79c0ff">
       DjedOPS:
     </text>
-    <text x="850" y="462" fill="#c9d1d9">
+
+    <text x="830" y="472" fill="#c9d1d9">
       Realtime System Operations
     </text>
 
-    <text x="650" y="486" fill="#79c0ff">
+
+    <text x="650" y="496" fill="#79c0ff">
       Whiteboard→SQL:
     </text>
-    <text x="850" y="486" fill="#c9d1d9">
+
+    <text x="830" y="496" fill="#c9d1d9">
       AI Visual Schema Extraction
     </text>
 
 
-    <!-- Philosophy -->
-    <text x="650" y="534" fill="#bc8cff">
+    <!-- ------------------------------------------------------- -->
+    <!-- PHILOSOPHY -->
+    <!-- ------------------------------------------------------- -->
+
+    <text
+      x="650"
+      y="538"
+      fill="#bc8cff"
+      font-weight="bold"
+    >
       Philosophy.Byte
     </text>
 
-    <text x="650" y="560" fill="#8b949e">
+    <text x="650" y="562" fill="#8b949e">
       Quote:
     </text>
 
-    <text x="760" y="560" fill="#c9d1d9">
+    <text x="830" y="562" fill="#c9d1d9">
       "Find out if I'm really alive."
     </text>
 
-    <text x="650" y="584" fill="#8b949e">
-      Music.Repeat:
+
+    <text x="650" y="586" fill="#8b949e">
+      Music:
     </text>
 
-    <text x="800" y="584" fill="#c9d1d9">
+    <text x="830" y="586" fill="#c9d1d9">
       Electronic, Progressive House
     </text>
 
 
-    <!-- Contact -->
-    <text x="650" y="632" fill="#f778ba">
+    <!-- ------------------------------------------------------- -->
+    <!-- CONTACT -->
+    <!-- ------------------------------------------------------- -->
+
+    <text
+      x="650"
+      y="628"
+      fill="#f778ba"
+      font-weight="bold"
+    >
       Contact
     </text>
 
-    <text x="650" y="658" fill="#8b949e">
+    <text x="650" y="652" fill="#8b949e">
       Web:
     </text>
 
-    <text x="760" y="658" fill="#58a6ff">
+    <text x="830" y="652" fill="#58a6ff">
       sameerdhir.vercel.app
     </text>
 
-    <text x="650" y="682" fill="#8b949e">
+
+    <text x="650" y="676" fill="#8b949e">
       GitHub:
     </text>
 
-    <text x="760" y="682" fill="#58a6ff">
+    <text x="830" y="676" fill="#58a6ff">
       @sameezy667
     </text>
 
