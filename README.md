@@ -15,7 +15,7 @@
 <img
   src="./sonic.gif"
   alt="Sonic"
-  width="500"
+  width="400"
 />
 
 <br><br>
