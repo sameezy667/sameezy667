@@ -1,21 +1,12 @@
 <div align="center">
 
-<!-- ================================================ -->
-<!-- ANIMATED PROFILE -->
-<!-- ================================================ -->
-
 <img
-  src="./profile.gif"
-  alt="Sameer Dhir animated GitHub profile"
+  src="./profile.svg"
+  alt="Sameer Dhir GitHub Profile"
   width="100%"
 />
 
-<br/>
-<br/>
-
-<!-- ================================================ -->
-<!-- CONTRIBUTION SNAKE -->
-<!-- ================================================ -->
+<br><br>
 
 <img
   src="https://raw.githubusercontent.com/sameezy667/sameezy667/output/snake.svg"
@@ -23,45 +14,10 @@
   width="95%"
 />
 
-<br/>
-<br/>
+<br><br>
 
-<!-- ================================================ -->
-<!-- SOCIAL LINKS -->
-<!-- ================================================ -->
-
-<a href="https://www.linkedin.com/in/sameer-dhir-b87061277">
-  <img
-    src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-    alt="LinkedIn"
-  />
-</a>
-
-&nbsp;
-
-<a href="https://x.com/_Sameerism_">
-  <img
-    src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"
-    alt="X"
-  />
-</a>
-
-&nbsp;
-
-<a href="https://sameerdhir.vercel.app/">
-  <img
-    src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"
-    alt="Portfolio"
-  />
-</a>
-
-&nbsp;
-
-<a href="https://open.spotify.com/">
-  <img
-    src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white"
-    alt="Spotify"
-  />
-</a>
+| | | | |
+|:---:|:---:|:---:|:---:|
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sameer-dhir-b87061277) | [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/_Sameerism_) | [![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://sameerdhir.vercel.app/) | [![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/) |
 
 </div>
