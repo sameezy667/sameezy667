@@ -1,0 +1,120 @@
+from PIL import Image, ImageDraw, ImageFont
+import random, math, os
+
+W, H = 1200, 180
+FRAMES = 48
+FPS = 12
+
+# Dark terminal-style animated banner
+bg = (7, 10, 12)
+panel = (13, 17, 23)
+border = (48, 54, 61)
+green = (57, 255, 136)
+dim_green = (25, 122, 67)
+text_main = (230, 237, 243)
+muted = (139, 148, 158)
+
+font_paths = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+    "/usr/share/fonts/truetype/liberation2/LiberationMono-Regular.ttf",
+]
+font_bold_paths = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
+    "/usr/share/fonts/truetype/liberation2/LiberationMono-Bold.ttf",
+]
+
+def load_font(paths, size):
+    for p in paths:
+        if os.path.exists(p):
+            return ImageFont.truetype(p, size)
+    return ImageFont.load_default()
+
+font_small = load_font(font_paths, 16)
+font_main = load_font(font_bold_paths, 28)
+font_sub = load_font(font_paths, 16)
+
+random.seed(667)
+
+# Matrix-like columns
+cols = 75
+col_x = [18 + i * (W - 36) / (cols - 1) for i in range(cols)]
+streams = []
+chars = "01{}[]<>/\\|:*+-_=#@$%&"
+for _ in range(cols):
+    streams.append({
+        "offset": random.uniform(0, 40),
+        "speed": random.uniform(0.45, 1.4),
+        "length": random.randint(3, 9),
+        "phase": random.random() * math.tau
+    })
+
+frames = []
+for fi in range(FRAMES):
+    im = Image.new("RGB", (W, H), bg)
+    d = ImageDraw.Draw(im)
+
+    # Outer panel
+    d.rounded_rectangle((8, 8, W - 8, H - 8), radius=9, fill=panel, outline=border, width=2)
+
+    # Terminal dots
+    for x, c in [(28, (255,95,86)), (48, (255,189,46)), (68, (39,201,63))]:
+        d.ellipse((x-5, 18-5, x+5, 18+5), fill=c)
+
+    d.text((W//2, 11), "sameer@systems: ~", anchor="ma", font=font_small, fill=muted)
+
+    # Subtle grid / scanline
+    for y in range(58, H - 18, 14):
+        d.line((18, y, W - 18, y), fill=(18, 25, 30), width=1)
+
+    # Matrix streams, concentrated around edges
+    for idx, s in enumerate(streams):
+        x = col_x[idx]
+        head = int((fi * s["speed"] * 8 + s["offset"] * 7) % 105)
+        for j in range(s["length"]):
+            yy = 50 + (head - j * 10)
+            if 50 <= yy <= H - 18:
+                alpha_factor = max(0, 1 - j / max(1, s["length"]))
+                # keep center clearer for readability
+                if 370 < x < 830 and 48 < yy < 145:
+                    continue
+                val = int(dim_green[1] + (green[1] - dim_green[1]) * alpha_factor)
+                col = (green[0], val, max(40, int(green[2] * alpha_factor)))
+                ch = chars[(idx * 3 + fi + j) % len(chars)]
+                d.text((x, yy), ch, font=font_small, fill=col)
+
+    # Main message
+    main = "BUILDING SYSTEMS"
+    sub = "LOCAL AI  //  FULL-STACK  //  PRIVACY-FIRST"
+
+    # typing effect
+    cycle = fi % 36
+    visible = min(len(main), max(0, int(cycle * (len(main) / 26))))
+
+    d.text((W//2, 77), main[:visible], anchor="ma", font=font_main, fill=text_main)
+
+    # glowing terminal cursor
+    if (fi // 4) % 2 == 0:
+        cursor_x = W//2 + d.textbbox((0,0), main[:visible], font=font_main)[2] / 2 + 8
+        d.rectangle((cursor_x, 86, cursor_x + 3, 112), fill=green)
+
+    d.text((W//2, 123), sub, anchor="ma", font=font_sub, fill=muted)
+
+    # Bottom progress bar
+    progress = ((fi % 48) / 47)
+    d.rounded_rectangle((250, 151, 950, 158), radius=3, fill=(20, 28, 32))
+    d.rounded_rectangle((250, 151, 250 + int(700 * progress), 158), radius=3, fill=green)
+
+    frames.append(im)
+
+out = "/mnt/data/profile-banner.gif"
+frames[0].save(
+    out,
+    save_all=True,
+    append_images=frames[1:],
+    duration=int(1000 / FPS),
+    loop=0,
+    optimize=False,
+    disposal=2,
+)
+
+print(f"Created: {out}")
