@@ -1,0 +1,307 @@
+<svg
+  width="1200"
+  height="720"
+  viewBox="0 0 1200 720"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <!-- Background -->
+  <rect width="1200" height="720" rx="14" fill="#0d1117"/>
+
+  <!-- Terminal border -->
+  <rect
+    x="18"
+    y="18"
+    width="1164"
+    height="684"
+    rx="12"
+    fill="#0d1117"
+    stroke="#30363d"
+    stroke-width="2"
+  />
+
+  <!-- Terminal top bar -->
+  <rect
+    x="18"
+    y="18"
+    width="1164"
+    height="42"
+    rx="12"
+    fill="#161b22"
+  />
+
+  <circle cx="42" cy="39" r="6" fill="#ff5f56"/>
+  <circle cx="62" cy="39" r="6" fill="#ffbd2e"/>
+  <circle cx="82" cy="39" r="6" fill="#27c93f"/>
+
+  <text
+    x="600"
+    y="45"
+    text-anchor="middle"
+    fill="#8b949e"
+    font-family="monospace"
+    font-size="15"
+  >
+    sameer@systems: ~
+  </text>
+
+  <!-- ASCII portrait -->
+  <g
+    font-family="monospace"
+    font-size="14"
+    fill="#8b949e"
+    xml:space="preserve"
+  >
+
+    <text x="42" y="100">
+      ((/(/(((((((((((((((#(#(((((#(((((##((((#(((((((((((((((((#
+    </text>
+
+    <text x="42" y="116">
+      /#((((((((((#/(#((((((#(##(((#((((((/((((((#(((((/(((((((//
+    </text>
+
+    <text x="42" y="132">
+      (//(((((###((#(#(##((((*.,*/**,,,*/(#((#(#(((#(((((((((((
+    </text>
+
+    <text x="42" y="148">
+      (((((((((((#(#(#(((...,*(///***/(/***,/(###((###(((((#((#
+    </text>
+
+    <text x="42" y="164">
+      (((((#######(##(........*(/,.,,.,.,.,,**,((#######(##(#((
+    </text>
+
+    <text x="42" y="180">
+      (#(###(######(/..,//(**,,,,,,*,,........*.,###(###(#(#(((
+    </text>
+
+    <text x="42" y="196">
+      ((/##(#######(.,/((##%//(((####(//,.,*,....(#####((*,,,,*
+    </text>
+
+    <text x="42" y="212">
+      (#,*,,,*,(%##,../*(#####/########(##(#*,,../,...,.,*,*####
+    </text>
+
+    <text x="42" y="228">
+      #(#(,(,,**,,*,.,*,,,.,,,*,.,,.,,.**,,,//...,..,***//#####
+    </text>
+
+    <text x="42" y="244">
+      ######**#,,,.,.,.,,(((/,.,,*,.,,*//#####.,*((##((/#######
+    </text>
+
+    <text x="42" y="260">
+      ########**(/,,,,*,.*,,////(#%%/**/(((#%#,(//*/####%######
+    </text>
+
+    <text x="42" y="276">
+      #%#########(*,,,*(/*.,*#/*,,,/#/*,/(//(/*%#%%%%%%##%##%%
+    </text>
+
+    <text x="42" y="292">
+      %%%#%%%%%%%##%##**,*,*,/(//(#(##(*...,**/%#%###%##%%####
+    </text>
+
+    <text x="42" y="308">
+      %%%%%%%%#%%%#%##(,,,,,,,,,,.,.,.........(#%####%%##%##%#
+    </text>
+
+    <text x="42" y="324">
+      %%%%%%%#%%######%#*.....,,,...........*(%%((#####%##%###
+    </text>
+
+    <text x="42" y="340">
+      %##%%##%#%#*%%%%%%#*.................(#%#%%%%#//,/#####%
+    </text>
+
+    <text x="42" y="356">
+      %%##%#/*(%(,.,..,./##.............,(#,....,,,,,*(,,,,/###
+    </text>
+
+    <text x="42" y="372">
+      %##**,**,,.,,.,,.,,...../#,..,%,...........,,,,,,,..,..*#
+    </text>
+
+    <text x="42" y="388">
+      #(/***,,,....,.,...........................,***,,.,..,.,*#
+    </text>
+
+    <text x="42" y="404">
+      ###,,,,,,,...,.,..,..................,.......,...,,,,,,*(
+    </text>
+
+    <text x="42" y="420">
+      */*#/,*,,/#(/##((((#(((((((*,**//(#((((##/*..,,*,,,,,//,/
+    </text>
+
+    <text x="42" y="436">
+      ***(.(#((,,,,*/*(,#(,#,*,,.,...,.,.,,,,...,,,*,*/*(,(,*/.
+    </text>
+
+    <text x="42" y="452">
+      /(,/.,****/*,,,*,,,,,.,,..,,/,....,.,,,,,,.,,,/(..*,*/,,,,
+    </text>
+
+    <text x="42" y="468">
+      ((,,.,((,,,*/#//((..#//*(.,..,,(((/,,,***(,(*,,,,**.,,,/.
+    </text>
+
+  </g>
+
+  <!-- Right side terminal -->
+  <g font-family="monospace" font-size="16">
+
+    <!-- Header -->
+    <text x="650" y="100" fill="#f0f6fc">
+      sameer@systems
+    </text>
+
+    <text x="650" y="126" fill="#58a6ff">
+      OS:
+    </text>
+    <text x="850" y="126" fill="#c9d1d9">
+      Linux Mint, Windows 11 (x86_64)
+    </text>
+
+    <text x="650" y="150" fill="#58a6ff">
+      Host:
+    </text>
+    <text x="850" y="150" fill="#c9d1d9">
+      ASUS Vivobook Architecture
+    </text>
+
+    <text x="650" y="174" fill="#58a6ff">
+      Kernel:
+    </text>
+    <text x="850" y="174" fill="#c9d1d9">
+      ML &amp; Full-Stack Systems
+    </text>
+
+    <text x="650" y="198" fill="#58a6ff">
+      Uptime:
+    </text>
+    <text x="850" y="198" fill="#c9d1d9">
+      Building 24/7
+    </text>
+
+    <text x="650" y="222" fill="#58a6ff">
+      Shell:
+    </text>
+    <text x="850" y="222" fill="#c9d1d9">
+      Local LLMs &amp; GenAI Runtimes
+    </text>
+
+    <text x="650" y="246" fill="#58a6ff">
+      Focus:
+    </text>
+    <text x="850" y="246" fill="#c9d1d9">
+      Privacy-first On-Device AI
+    </text>
+
+    <text x="650" y="270" fill="#58a6ff">
+      IDE:
+    </text>
+    <text x="850" y="270" fill="#c9d1d9">
+      VS Code, Cursor
+    </text>
+
+
+    <!-- Languages -->
+    <text x="650" y="316" fill="#3fb950">
+      Languages.Code
+    </text>
+    <text x="850" y="316" fill="#c9d1d9">
+      TypeScript, Python, C++, SQL, Go
+    </text>
+
+    <text x="650" y="340" fill="#3fb950">
+      Frameworks.Web
+    </text>
+    <text x="850" y="340" fill="#c9d1d9">
+      React, Next.js, Node.js, TailwindCSS
+    </text>
+
+    <text x="650" y="364" fill="#3fb950">
+      AI.Arsenal
+    </text>
+    <text x="850" y="364" fill="#c9d1d9">
+      PyTorch, Llama 3, Local LLM Runtimes
+    </text>
+
+
+    <!-- Projects -->
+    <text x="650" y="412" fill="#f0883e">
+      Projects.Featured
+    </text>
+
+    <text x="650" y="438" fill="#79c0ff">
+      Flagr:
+    </text>
+    <text x="850" y="438" fill="#c9d1d9">
+      AI Legal Assistant SaaS
+    </text>
+
+    <text x="650" y="462" fill="#79c0ff">
+      DjedOPS:
+    </text>
+    <text x="850" y="462" fill="#c9d1d9">
+      Realtime System Operations
+    </text>
+
+    <text x="650" y="486" fill="#79c0ff">
+      Whiteboard→SQL:
+    </text>
+    <text x="850" y="486" fill="#c9d1d9">
+      AI Visual Schema Extraction
+    </text>
+
+
+    <!-- Philosophy -->
+    <text x="650" y="534" fill="#bc8cff">
+      Philosophy.Byte
+    </text>
+
+    <text x="650" y="560" fill="#8b949e">
+      Quote:
+    </text>
+
+    <text x="760" y="560" fill="#c9d1d9">
+      "Find out if I'm really alive."
+    </text>
+
+    <text x="650" y="584" fill="#8b949e">
+      Music.Repeat:
+    </text>
+
+    <text x="800" y="584" fill="#c9d1d9">
+      Electronic, Progressive House
+    </text>
+
+
+    <!-- Contact -->
+    <text x="650" y="632" fill="#f778ba">
+      Contact
+    </text>
+
+    <text x="650" y="658" fill="#8b949e">
+      Web:
+    </text>
+
+    <text x="760" y="658" fill="#58a6ff">
+      sameerdhir.vercel.app
+    </text>
+
+    <text x="650" y="682" fill="#8b949e">
+      GitHub:
+    </text>
+
+    <text x="760" y="682" fill="#58a6ff">
+      @sameezy667
+    </text>
+
+  </g>
+
+</svg>
