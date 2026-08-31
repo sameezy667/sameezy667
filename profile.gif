@@ -1,0 +1,90 @@
+from PIL import Image, ImageDraw, ImageFont
+import cairosvg
+import io
+import time
+import os
+
+SVG_FILE = "profile.svg"
+OUTPUT_FILE = "profile.gif"
+
+WIDTH = 1200
+HEIGHT = 700
+
+# Animation settings
+FPS = 12
+FRAMES = 48
+
+
+def load_base_image():
+    png_bytes = cairosvg.svg2png(
+        url=SVG_FILE,
+        output_width=WIDTH,
+        output_height=HEIGHT
+    )
+
+    return Image.open(io.BytesIO(png_bytes)).convert("RGBA")
+
+
+def get_font(size=16):
+    # Linux/macOS/Windows common fallback chain
+    candidates = [
+        "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "/usr/share/fonts/truetype/liberation2/LiberationMono-Regular.ttf",
+        "C:/Windows/Fonts/consola.ttf",
+        "/System/Library/Fonts/Menlo.ttc",
+    ]
+
+    for path in candidates:
+        if os.path.exists(path):
+            return ImageFont.truetype(path, size)
+
+    return ImageFont.load_default()
+
+
+base = load_base_image()
+
+frames = []
+
+# Cursor font
+font = get_font(18)
+
+for frame_index in range(FRAMES):
+
+    frame = base.copy()
+    draw = ImageDraw.Draw(frame)
+
+    # Cursor blink every ~0.5 seconds
+    cursor_visible = ((frame_index // 6) % 2) == 0
+
+    if cursor_visible:
+        draw.text(
+            (718, 77),
+            "_",
+            font=font,
+            fill="#58a6ff"
+        )
+
+    # Small terminal activity indicator
+    pulse = frame_index % 12
+
+    # Very subtle scan line
+    y = 70 + (pulse * 3)
+
+    draw.line(
+        [(20, y), (1180, y)],
+        fill=(48, 54, 61, 35),
+        width=1
+    )
+
+    frames.append(frame.convert("P", palette=Image.ADAPTIVE))
+
+frames[0].save(
+    OUTPUT_FILE,
+    save_all=True,
+    append_images=frames[1:],
+    duration=int(1000 / FPS),
+    loop=0,
+    optimize=False,
+)
+
+print(f"Created {OUTPUT_FILE}")
