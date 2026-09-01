@@ -107,12 +107,12 @@
 
     <text x="650" y="118" fill="#58a6ff" font-size="14">OS:</text>
     <text x="810" y="118" fill="#c9d1d9" font-size="14">
-      Linux Mint, Windows 11 (x86_64)
+      Arch, Windows
     </text>
 
     <text x="650" y="141" fill="#58a6ff" font-size="14">Host:</text>
     <text x="810" y="141" fill="#c9d1d9" font-size="14">
-      ASUS Vivobook Architecture
+      ASUS Larpbook
     </text>
 
     <text x="650" y="164" fill="#58a6ff" font-size="14">Kernel:</text>
